@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de contacto</title>
+        <link rel ="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/logo.png"></h1>
+                <nav>
+                    <ul class="navegacion">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contactos</a></li>
+                   </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+          <form>
+            <label for="nombreyapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreyapellido">
+
+            <label for="correoelectronico">Email</label>
+            <input type="text" id="correoelectronico">
+
+            <label for="telefono">Télefono </label>
+            <input type="text" id="telefono">
+
+            <label for="mensaje">Mensaje </label>
+            <textarea cols="70" rows="10" id="mensaje"></textarea>
+
+            <label for="email-radio">Email</label>
+            <input type="radio" value="email" id="email-radio"> 
+
+            <label for="telefono-radio">Teléfono</label>
+            <input type="radio" value="telefono" id="telefono-radio"> 
+
+            <label for="whatsapp-radio">Whatsapp</label>
+            <input type="radio" value="Whatsapp" id="whatsapp-radio"> 
+
+
+            <input type="submit" value="Enviar Formulario">
+          </form>
+          
+          
+        </main>
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="copyright">&copy Copyright Babrberia Alura - 2023 &#10084</p>
+        </footer>
+    </body>
+</html>
